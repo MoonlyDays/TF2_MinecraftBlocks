@@ -15,7 +15,8 @@
 - Due to the edict limit maximum amount of concurrent build blocks is 256
 
 ### Installation
-- minecraft.smx in addons/plugins
-- minecraft.sp in addons/scipting
+- minecraft.smx in addons/sourcemod/plugins
+- minecraft.sp in addons/sourcemod/scripting
+- blocks.cfg in addons/sourcemod/configs
 - upload models, materials and sound to your fastdl and server root tf folders
 - sm plugins load minecraft or restart the server
