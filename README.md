@@ -20,3 +20,10 @@
 - blocks.cfg in addons/sourcemod/configs
 - upload models, materials and sound to your fastdl and server root tf folders
 - sm plugins load minecraft or restart the server
+
+###About limiting
+Source engine can handle a maximum amount of 2048 blocks in total. If entities will overflow this limit the server will crash.
+
+Every block is a single prop, but every prop itself is an entity. This plugin allows you to freely spawn any amount of entities so its really easy to crash your server.
+
+That's why limit exists. It prevents crashing your server due to edict/entity overflow. 
