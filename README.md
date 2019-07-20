@@ -6,7 +6,7 @@
 - sm_limit - Displays current block amount on map
 - sm_clearblocks (Ban Flag) - Clears all blocks on map
 
-###ConVars
+### ConVars
 - sm_minecraft_block_limit (256 default) - Maximum amount of blocks per map
 
 ### Features
@@ -21,7 +21,7 @@
 - upload models, materials and sound to your fastdl and server root tf folders
 - sm plugins load minecraft or restart the server
 
-###About limiting
+### About limiting
 Source engine can handle a maximum amount of 2048 blocks in total. If entities will overflow this limit the server will crash.
 
 Every block is a single prop, but every prop itself is an entity. This plugin allows you to freely spawn any amount of entities so its really easy to crash your server.
